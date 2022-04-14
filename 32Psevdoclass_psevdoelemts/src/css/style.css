@@ -1,0 +1,74 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Test_hover {
+  width: 250px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.Test_hover:hover {
+  background-color: pink;
+  color: white;
+}
+
+.Test_active {
+  width: 250px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.Test_active:active {
+  background-color: orange;
+}
+
+.Test_focus {
+  width: 250px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.Test_focus:focus {
+  background-color: orange;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+
+.circle:nth-child(2n+1) {
+  background-color: red;
+}
+
+.circle:before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 12%;
+  background-color: black;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.circle:hover:before {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
